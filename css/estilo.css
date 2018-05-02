@@ -1,0 +1,97 @@
+body {
+	color: white;
+	background: black;
+	background: url("../img/bg.jpg") no-repeat black;
+}
+
+header{
+	height: 200px;
+}
+
+#menu a{
+	background: orange;
+	padding: 5px;
+}
+
+nav{
+	text-align: center;
+}
+
+#contenido article{
+	width: 46%;
+	float: left;
+	margin: 1%;
+	/*border: 1px solid white;horthands*/
+	padding: .5%
+}
+
+.ocultar{display: none;}
+
+#iconoPDF{
+	list-style-image: url(../img/ico-pdf.jpg);
+}
+
+#iconoWORD{
+	list-style-image: url(../img/ico-word.jpg);
+}
+#iconoZIP{
+	list-style-image: url(../img/ico-zip.jpg);
+}
+
+#iconoJPG{
+	list-style-image: url(../img/ico-jpg.jpg);
+}
+.descargas{
+	clear: both;
+	color: black;
+	background: white;
+	margin: 1%;
+	width: 98%;
+	height: 150px
+}
+
+.descargas-lista{
+	margin: 40%;
+}
+
+.icoFacebook{
+	list-style-image: url(../img/face.jpg);
+}
+
+.icoTwitter{
+	list-style-image: url(../img/twitter.jpg);
+}
+#redes-sociales{
+	margin: 1%;
+}
+
+#pie-pagina{
+	clear: both;
+}
+
+#menu a{
+	background: orange;
+	padding: 5px;
+}
+
+.articulo img{
+
+	margin: 18px;
+
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+	width: 100px;
+}
+
+#menu a:hover{
+	background: gray;
+}
+#menu a{
+	background: orange;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+	display: block;
+}
